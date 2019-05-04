@@ -9,13 +9,13 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #fff;
   font-family: 'Lato', sans-serif;
 }
-/* Style for "hero image" */
+/* Style for "header image" */
 header-image {
-  width: 1280px;
-  height: 736px;
+  width: 200px;
+  height: 100px;
 }
 
 #page-wrapper {
