@@ -13,11 +13,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-#page-wrapper {
-  position: relative;
+#header {
+  float: left;
+  top: 100%;
 }
 
-.nav-bar {
+nav {
   width: 100%;
   height: 38px;
   background-color: #fff;
@@ -28,8 +29,7 @@ body {
   top: 100%;
   text-decoration: none;
 }
-  .nav-bar a {
-    float: left;
+  nav a {
     font-family: 'Lato', sans-serif;
     font-size: 9px;
     color: gray;
@@ -39,17 +39,12 @@ body {
     padding-left: 10px;
     overflow: hidden;
     }
-     .nav-bar a:hover {
+    nav a:hover {
       background-color: #17b0cf;
-      color: #000;
       text-decoration: none;
      }
   }
 
-.a {
-  color: #000;
-  text-decoration: none;
-}
 
 /** global classes styling **/
 
